@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <color name="purple_200">#FFBB86FC</color>
-    <color name="purple_500">#FF6200EE</color>
-    <color name="purple_700">#FF3700B3</color>
-    <color name="teal_200">#FF03DAC5</color>
-    <color name="teal_700">#FF018786</color>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
-    <color name="button_background">#FFCA5F</color>
-    <color name="button_text">#4C3318</color>
-</resources>
+<palette>
+<color name='vintage-card-1' rgb='5C4B51' r='91' g='75' b='80' />
+<color name='vintage-card-2' rgb='8CBEB2' r='140' g='189' b='177' />
+<color name='vintage-card-3' rgb='F2EBBF' r='242' g='235' b='191' />
+<color name='vintage-card-4' rgb='F3B562' r='242' g='181' b='98' />
+<color name='vintage-card-5' rgb='F06060' r='239' g='96' b='96' />
+</palette>
