@@ -1,35 +1,32 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity">
-
-    <com.google.android.material.appbar.AppBarLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:theme="@style/Theme.MyApp.AppBarOverlay">
-
-        <androidx.appcompat.widget.Toolbar
-            android:id="@+id/toolbar"
-            android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="?attr/colorPrimary"
-            app:popupTheme="@style/Theme.MyApp.PopupOverlay" />
-
-    </com.google.android.material.appbar.AppBarLayout>
-
-    <include layout="@layout/content_main" />
-
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/fab"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end"
-        android:layout_marginEnd="@dimen/fab_margin"
-        android:layout_marginBottom="16dp"
-        app:srcCompat="@android:drawable/ic_dialog_email"
-        android:contentDescription="@string/email" />
-
-</androidx.coordinatorlayout.widget.CoordinatorLayout>
+//mainGame
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="360dp"
+    android:height="640dp"
+    android:viewportWidth="360"
+    android:viewportHeight="640">
+    <path
+        android:fillColor="#4DF9EED8"
+        android:pathData="M0.5 0.5H359.5V639.5H0.5z"/>
+    <path
+        android:fillColor="#FFFFCA5F"
+        android:pathData="M148.35 49.08h8.35v2.5h-8.35v-2.5Zm-3.22-12.88h14.97v2.52h-14.97V36.2Zm0.94 3.2h13.3v2.38h-13.3V39.4Zm-1 3.05h15.43V45h-15.43v-2.55Zm3.3 9.82h8.35v2.45h-8.34v-2.45Zm7.43-6.57h3.42v9.38c0 1.5-0.27 2.34-1.3 2.82-1 0.5-2.3 0.52-4.02 0.52-0.13-0.9-0.55-2.22-0.95-3.07 0.88 0.07 2.08 0.05 2.4 0.05 0.33 0 0.45-0.1 0.45-0.4v-9.3Zm-4.98-11.08h3.56v8.68h-3.56v-8.67Zm-4.84 11.08h3.4v4.57c0 2.65-0.4 6.2-2.38 8.33-0.5-0.65-1.93-1.98-2.63-2.43 1.5-1.7 1.6-4.05 1.6-5.97v-4.5Zm2 0h9.47v2.47h-9.47V45.7Zm-10.9-9l2.54-1.9c4.68 4.05 5.28 8.5 5.28 13.43 0 3.35-0.28 6.8-1.47 8.42-0.4 0.55-0.98 0.93-1.6 1.08-1.03 0.27-2.16 0.32-3.48 0.25-0.03-1.15-0.32-2.43-0.95-3.45 1.28 0.07 2.1 0.07 2.65 0.02 0.35-0.05 0.57-0.17 0.75-0.42 0.47-0.66 0.65-3.08 0.65-6 0-4.6-0.65-8.16-4.38-11.43Zm4.84 6.97l2.58 1.6c-1.38 2.48-3.85 5.55-5.95 7.38-0.45-0.88-1.35-2.25-2.05-3 1.97-1.3 4.28-3.88 5.43-5.98Zm1.06-8.52l2.67 1.73c-1.68 2.64-4.58 5.92-7.03 7.9-0.44-0.95-1.32-2.43-2.05-3.23 2.3-1.42 5.03-4.17 6.4-6.4Z"/>
+    <path
+        android:fillColor="#FF626349"
+        android:pathData="M183.43 39.08h8.44v3.15h-8.44v-3.15Zm0.37-4.48l2.97 0.55c-0.84 4.9-2.27 10.15-4.05 13.52-0.47-0.6-1.62-1.77-2.27-2.3 1.58-2.84 2.7-7.4 3.35-11.77Zm3.57 6.55l3.03 0.23c-0.83 8.67-3.13 14.02-9.35 17.12-0.28-0.67-1.15-2.05-1.7-2.67 5.6-2.43 7.47-7.13 8.03-14.68Zm-2.12 0.73c0.88 6.02 2.72 11.3 6.97 13.67-0.72 0.6-1.77 1.9-2.25 2.8-4.52-3.05-6.22-8.9-7.22-16.13l2.5-0.34Zm-11.38-7.26h2.68v13.5h-2.68v-13.5Zm-1.32 3.63v3.4h5.42v-3.4h-5.42Zm-2.65-2.2h10.9v7.83h-10.9v-7.83Zm2.6 10.3v0.77h5.43v-0.77h-5.43Zm-2.95-1.95h11.5v4.68h-11.5V44.4Zm-1.43-5.75h2.58v0.2h8.4v-0.2h2.97v2.52h-2.97v-0.2h-8.4v0.2h-2.57v-2.52Zm1.45 15.4c1.33-1.6 2.98-4.07 3.9-6.1l2.8 0.63c-1.05 2.2-2.65 4.62-3.87 6.17l-2.83-0.7Zm0 0l2.25-1.82c3.33 0.72 7.36 2.2 9.8 3.4l-2.25 2c-2.3-1.28-6.4-2.8-9.8-3.58Zm7.75-4.7h2.8v1.45c0 2.65-1.4 6.18-10.92 7.55-0.22-0.68-0.88-1.73-1.38-2.3 8.48-1.1 9.5-3.63 9.5-5.38v-1.32Zm-8.77 0.55h13.4v2.38h-13.4V49.9Z"/>
+    <path
+        android:fillColor="#FF6C6541"
+        android:pathData="M204.63 41.85h10.7v3.38h-10.7v-3.38Zm-4.4 6.15h22.07v3.45h-22.08V48Zm9.02-1.2h3.9v7.55c0 1.85-0.43 2.82-1.85 3.38-1.38 0.55-3.13 0.6-5.18 0.6-0.22-1.1-0.94-2.75-1.55-3.73 1.43 0.07 3.48 0.07 4 0.07 0.53 0 0.68-0.1 0.68-0.45V46.8Zm4.95-4.95h1.03l0.84-0.18 2.43 1.9c-1.9 1.93-4.45 4.05-7.32 5.33-0.46-0.6-1.4-1.6-1.93-2.1 2-1.05 4.07-2.97 4.95-4.22v-0.73Zm-13.95-5h21.95v6.1h-3.77v-2.68h-14.6v2.68h-3.58v-6.1Zm8.32-1.35l3.68-1.08c0.68 0.85 1.32 2.03 1.6 2.88L210 38.58c-0.2-0.85-0.8-2.16-1.43-3.08Z"/>
+    <group>
+        <clip-path
+            android:pathData="M312 15H347V50H312z"/>
+        <group>
+            <path
+                android:fillColor="#FF626349"
+                android:pathData="M316.38 41.25v-2.92h26.25v2.92h-26.25Zm0-7.3v-2.9h26.25v2.9h-26.25Zm0-7.28v-2.92h26.25v2.92h-26.25Z"/>
+        </group>
+    </group>
+    <path
+        android:strokeColor="#FF000000"
+        android:strokeWidth="1"
+        android:pathData="M0.5 0.5H359.5V639.5H0.5z"/>
+</vector>
